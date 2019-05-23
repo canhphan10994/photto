@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Phottos - Discover the World's Top Photographer</title>
+  <!-- Links -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <div class="nav-bar" role="banner">
+      <div class="nav-bar-inner">
+        <div id="logo">
+          <p>
+            <a href="#">Phottos</a>
+          </p>
+        </div>
+        <div class="toggle">
+          <a href="#"><i class="fas fa-bars"></i></a>
+        </div>
+        <ul id="header-nav" class="hidden">
+          <li id="t-search" role="search">
+            <form id="search" action="index.html">
+              <input class="search-text" type="search" name="q" placeholder="Search ">
+            </form>
+          </li>
+          <li id="t-sigin">
+            <a href="#">Sign in</a>
+          </li>
+          <li id="t-sigup">
+            <a href="#">Sign up</a>
+          </li>
+          <li id="t-shots">
+            <a href="#">Shots</a>
+            <ul class="tabs">
+              <li>
+                <a href="#">Popular Shots</a>
+              </li>
+              <li>
+                <a href="#">Recent Shots</a>
+              </li>
+              <li>
+                <a href="#">Debuts</a>
+              </li>
+              <li>
+                <a href="#">Playoffs</a>
+              </li>
+            </ul>
+          </li>
+          <li id="t-players">
+            <a href="#">Photographer</a>
+            <ul class="tabs">
+              <li>
+                <a href="#">Trending Photographer</a>
+              </li>
+              <li>
+                <a href="#">Popular Photographer</a>
+              </li>
+            </ul>
+          </li>
+          <li id="t-teams">
+            <a href="#">Teams</a>
+            <ul class="tabs">
+              <li>
+                <a href="#">Trending Teams</a>
+              </li>
+              <li>
+                <a href="#">Popular Teams</a>
+              </li>
+              <li>
+                <a href="#">Add Your Team</a>
+              </li>
+            </ul>
+          </li>
+          <li id="t-community">
+            <a href="#">Community</a>
+            <ul class="tabs">
+              <li>
+                <a href="#">Blog</a>
+              </li>
+              <li>
+                <a href="#">Podcast</a>
+              </li>
+              <li>
+                <a href="#">Meetups</a>
+              </li>
+              <li>
+                <a href="#">Host a Meetup</a>
+              </li>
+            </ul>
+          </li>
+          <li id="t-jobs">
+            <a href="#">Jobs</a>
+            <ul class="tabs">
+              <li>
+                <a href="#">All</a>
+              </li>
+              <li>
+                <a href="#">Teams Hiring</a>
+              </li>
+              <li>
+                <a href="#">Post a Job</a>
+              </li>
+            </ul>
+          </li>
+          <li id="t-hiring">
+            <a href="#">Hiring</a>
+            <ul class="tabs">
+              <li>
+                <a href="#">Hiring at Phottos</a>
+              </li>
+              <li>
+                <a href="#">Add Your Photographer Team</a>
+              </li>
+            </ul>
+          </li>
+          <li id="t-more">
+            <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+            <ul class="tabs">
+              <li>
+                <a href="#">About</a>
+              </li>
+              <li>
+                <a href="#">Shop</a>
+              </li>
+              <li>
+                <a href="#">Help</a>
+              </li>
+              <li>
+                <a href="#">Careers</a>
+              </li>
+              <li>
+                <a href="#">Goods by Photographer</a>
+              </li>
+              <li>
+                <a href="#">Photographers by Location</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <!-- Main -->
+  <main class="wrap">
+    <!-- SHOWCASE -->
+    <section id="magican" class="showcase">
+      <div class="showcase-content">
+        <div class="showcase-wrap">
+          <div class="showcase-p1-wrap">
+            <div class="showcase-copy">
+              <h1>Discover the world’s top photographers</h1>
+              <p>Phottos is the leading destination to find & showcase creative work and home to the world's best photographer</p>
+            </div>
+            <div class="showcase-cta">
+              <a href="#">Sign Up</a>
+            </div>
+          </div>
+          <img class="image-image" src="../img/showcase.jpg" alt="">
+        </div>
+        <p id="showcase-author">
+          <span>Art by</span>
+          <a href="https://www.pexels.com/@kaiquestr" target="_blank">Kaique Rocha</a>
+          <span>in HCM, Viet Nam</span>
+        </p>
+      </div>
+    </section>
+    <!-- nav-bar -->
+    <section id="main-nav">
+      <div class="full-tabs">
+        <ul id="tab-lead">
+          <li class="tab-head">
+            <a href="#">Popular <span><i class="fas fa-angle-down"></i></sub></a>
+            <ul class="tab-items">
+              <li>
+                <a href="#">Recent</a>
+              </li>
+              <li>
+                <a href="#">Most Viewed</a>
+              </li>
+              <li>
+                <a href="#">Most Commented</a>
+              </li>
+            </ul>
+          </li>
+          <li class="tab-head">
+            <a href="#">Shots <span><i class="fas fa-angle-down"></i></sub></a>
+            <ul class="tab-items">
+              <li>
+                <a href="#">Debuts</a>
+              </li>
+              <li>
+                <a href="#">Team Shots</a>
+              </li>
+              <li>
+                <a href="#">Playoffs</a>
+              </li>
+            </ul>
+          </li>
+          <li class="tab-head">
+            <a href="#">Now <span><i class="fas fa-angle-down"></i></span></a>
+            <ul class="tab-items">
+              <li>
+                <a href="#">This Past Week</a>
+              </li>
+              <li>
+                <a href="#">This Past Month</a>
+              </li>
+              <li>
+                <a href="#">This Past Year</a>
+              </li>
+              <li>
+                <a href="#">All Time</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- MAIN CONTENTS -->
+    <section id="main-content">
+      <div id="main-content-inner">
+        <ol class="contents">
+          <li class="content-inner">
+            <div class="phottos">
+              <div class="phottos-item">
+                <a href="#"><img src="img\1474157.jpg" alt=""></a>
+              </div>
+              <div class="tools-group">
+                <ul>
+                  <li><i class="fas fa-eye"></i> <span>10000</span></li>
+                  <li><i class="fas fa-comment"></i> <span>500</span></li>
+                  <li><i class="fas fa-heart"></i> <span>1000</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="photos-author">
+              <a href="#">Canh Phan</a>
+            </div>
+          </li>
+          <li class="content-inner">
+            <div class="phottos">
+              <div class="phottos-item">
+                <a href="#"><img src="img\1474157.jpg" alt=""></a>
+              </div>
+              <div class="tools-group">
+                <ul>
+                  <li><i class="fas fa-eye"></i> <span>10000</span></li>
+                  <li><i class="fas fa-comment"></i> <span>500</span></li>
+                  <li><i class="fas fa-heart"></i> <span>1000</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="photos-author">
+              <a href="#">Canh Phan</a>
+            </div>
+          </li>
+          <li class="content-inner">
+            <div class="phottos">
+              <div class="phottos-item">
+                <a href="#"><img src="img\1474157.jpg" alt=""></a>
+              </div>
+              <div class="tools-group">
+                <ul>
+                  <li><i class="fas fa-eye"></i> <span>10000</span></li>
+                  <li><i class="fas fa-comment"></i> <span>500</span></li>
+                  <li><i class="fas fa-heart"></i> <span>1000</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="photos-author">
+              <a href="#">Canh Phan</a>
+            </div>
+          </li>
+          <li class="content-inner">
+            <div class="phottos">
+              <div class="phottos-item">
+                <a href="#"><img src="img\1474157.jpg" alt=""></a>
+              </div>
+              <div class="tools-group">
+                <ul>
+                  <li><i class="fas fa-eye"></i> <span>10000</span></li>
+                  <li><i class="fas fa-comment"></i> <span>500</span></li>
+                  <li><i class="fas fa-heart"></i> <span>1000</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="photos-author">
+              <a href="#">Canh Phan</a>
+            </div>
+          </li>
+          <li class="content-inner">
+            <div class="phottos">
+              <div class="phottos-item">
+                <a href="#"><img src="img\1474157.jpg" alt=""></a>
+              </div>
+              <div class="tools-group">
+                <ul>
+                  <li><i class="fas fa-eye"></i> <span>10000</span></li>
+                  <li><i class="fas fa-comment"></i> <span>500</span></li>
+                  <li><i class="fas fa-heart"></i> <span>1000</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="photos-author">
+              <a href="#">Canh Phan</a>
+            </div>
+          </li>
+          <li class="content-inner">
+            <div class="phottos">
+              <div class="phottos-item">
+                <a href="#"><img src="img\1474157.jpg" alt=""></a>
+              </div>
+              <div class="tools-group">
+                <ul>
+                  <li><i class="fas fa-eye"></i> <span>10000</span></li>
+                  <li><i class="fas fa-comment"></i> <span>500</span></li>
+                  <li><i class="fas fa-heart"></i> <span>1000</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="photos-author">
+              <a href="#">Canh Phan</a>
+            </div>
+          </li>
+          <li class="content-inner">
+            <div class="phottos">
+              <div class="phottos-item">
+                <a href="#"><img src="img\1474157.jpg" alt=""></a>
+              </div>
+              <div class="tools-group">
+                <ul>
+                  <li><i class="fas fa-eye"></i> <span>10000</span></li>
+                  <li><i class="fas fa-comment"></i> <span>500</span></li>
+                  <li><i class="fas fa-heart"></i> <span>1000</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="photos-author">
+              <a href="#">Canh Phan</a>
+            </div>
+          </li>
+          <li class="content-inner">
+            <div class="phottos">
+              <div class="phottos-item">
+                <a href="#"><img src="img\1474157.jpg" alt=""></a>
+              </div>
+              <div class="tools-group">
+                <ul>
+                  <li><i class="fas fa-eye"></i> <span>10000</span></li>
+                  <li><i class="fas fa-comment"></i> <span>500</span></li>
+                  <li><i class="fas fa-heart"></i> <span>1000</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="photos-author">
+              <a href="#">Canh Phan</a>
+            </div>
+          </li>
+          <li class="content-inner">
+            <div class="phottos">
+              <div class="phottos-item">
+                <a href="#"><img src="img\1474157.jpg" alt=""></a>
+              </div>
+              <div class="tools-group">
+                <ul>
+                  <li><i class="fas fa-eye"></i> <span>10000</span></li>
+                  <li><i class="fas fa-comment"></i> <span>500</span></li>
+                  <li><i class="fas fa-heart"></i> <span>1000</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="photos-author">
+              <a href="#">Canh Phan</a>
+            </div>
+          </li>
+          <li class="content-inner">
+            <div class="phottos">
+              <div class="phottos-item">
+                <a href="#"><img src="img\1474157.jpg" alt=""></a>
+              </div>
+              <div class="tools-group">
+                <ul>
+                  <li><i class="fas fa-eye"></i> <span>10000</span></li>
+                  <li><i class="fas fa-comment"></i> <span>500</span></li>
+                  <li><i class="fas fa-heart"></i> <span>1000</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="photos-author">
+              <a href="#">Canh Phan</a>
+            </div>
+          </li>
+          <li class="content-inner">
+            <div class="phottos">
+              <div class="phottos-item">
+                <a href="#"><img src="img\1474157.jpg" alt=""></a>
+              </div>
+              <div class="tools-group">
+                <ul>
+                  <li><i class="fas fa-eye"></i> <span>10000</span></li>
+                  <li><i class="fas fa-comment"></i> <span>500</span></li>
+                  <li><i class="fas fa-heart"></i> <span>1000</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="photos-author">
+              <a href="#">Canh Phan</a>
+            </div>
+          </li>
+          <li class="content-inner">
+            <div class="phottos">
+              <div class="phottos-item">
+                <a href="#"><img src="img\1474157.jpg" alt=""></a>
+              </div>
+              <div class="tools-group">
+                <ul>
+                  <li><i class="fas fa-eye"></i> <span>10000</span></li>
+                  <li><i class="fas fa-comment"></i> <span>500</span></li>
+                  <li><i class="fas fa-heart"></i> <span>1000</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="photos-author">
+              <a href="#">Canh Phan</a>
+            </div>
+          </li>
+          <li class="content-inner">
+            <div class="phottos">
+              <div class="phottos-item">
+                <a href="#"><img src="img\1474157.jpg" alt=""></a>
+              </div>
+              <div class="tools-group">
+                <ul>
+                  <li><i class="fas fa-eye"></i> <span>10000</span></li>
+                  <li><i class="fas fa-comment"></i> <span>500</span></li>
+                  <li><i class="fas fa-heart"></i> <span>1000</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="photos-author">
+              <a href="#">Canh Phan</a>
+            </div>
+          </li>
+          <li class="content-inner">
+            <div class="phottos">
+              <div class="phottos-item">
+                <a href="#"><img src="img\1474157.jpg" alt=""></a>
+              </div>
+              <div class="tools-group">
+                <ul>
+                  <li><i class="fas fa-eye"></i> <span>10000</span></li>
+                  <li><i class="fas fa-comment"></i> <span>500</span></li>
+                  <li><i class="fas fa-heart"></i> <span>1000</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="photos-author">
+              <a href="#">Canh Phan</a>
+            </div>
+          </li>
+          <li class="content-inner">
+            <div class="phottos">
+              <div class="phottos-item">
+                <a href="#"><img src="img\1474157.jpg" alt=""></a>
+              </div>
+              <div class="tools-group">
+                <ul>
+                  <li><i class="fas fa-eye"></i> <span>10000</span></li>
+                  <li><i class="fas fa-comment"></i> <span>500</span></li>
+                  <li><i class="fas fa-heart"></i> <span>1000</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="photos-author">
+              <a href="#">Canh Phan</a>
+            </div>
+          </li>
+          <li class="content-inner">
+            <div class="phottos">
+              <div class="phottos-item">
+                <a href="#"><img src="img\1474157.jpg" alt=""></a>
+              </div>
+              <div class="tools-group">
+                <ul>
+                  <li><i class="fas fa-eye"></i> <span>10000</span></li>
+                  <li><i class="fas fa-comment"></i> <span>500</span></li>
+                  <li><i class="fas fa-heart"></i> <span>1000</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="photos-author">
+              <a href="#">Canh Phan</a>
+            </div>
+          </li>
+          <li class="content-inner">
+            <div class="phottos">
+              <div class="phottos-item">
+                <a href="#"><img src="img\1474157.jpg" alt=""></a>
+              </div>
+              <div class="tools-group">
+                <ul>
+                  <li><i class="fas fa-eye"></i> <span>10000</span></li>
+                  <li><i class="fas fa-comment"></i> <span>500</span></li>
+                  <li><i class="fas fa-heart"></i> <span>1000</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="photos-author">
+              <a href="#">Canh Phan</a>
+            </div>
+          </li>
+          <li class="content-inner">
+            <div class="phottos">
+              <div class="phottos-item">
+                <a href="#"><img src="img\1474157.jpg" alt=""></a>
+              </div>
+              <div class="tools-group">
+                <ul>
+                  <li><i class="fas fa-eye"></i> <span>10000</span></li>
+                  <li><i class="fas fa-comment"></i> <span>500</span></li>
+                  <li><i class="fas fa-heart"></i> <span>1000</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="photos-author">
+              <a href="#">Canh Phan</a>
+            </div>
+          </li>
+          <li class="content-inner">
+            <div class="phottos">
+              <div class="phottos-item">
+                <a href="#"><img src="img\1474157.jpg" alt=""></a>
+              </div>
+              <div class="tools-group">
+                <ul>
+                  <li><i class="fas fa-eye"></i> <span>10000</span></li>
+                  <li><i class="fas fa-comment"></i> <span>500</span></li>
+                  <li><i class="fas fa-heart"></i> <span>1000</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="photos-author">
+              <a href="#">Canh Phan</a>
+            </div>
+          </li>
+          <li class="content-inner">
+            <div class="phottos">
+              <div class="phottos-item">
+                <a href="#"><img src="img\1474157.jpg" alt=""></a>
+              </div>
+              <div class="tools-group">
+                <ul>
+                  <li><i class="fas fa-eye"></i> <span>10000</span></li>
+                  <li><i class="fas fa-comment"></i> <span>500</span></li>
+                  <li><i class="fas fa-heart"></i> <span>1000</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="photos-author">
+              <a href="#">Canh Phan</a>
+            </div>
+          </li>
+          <li class="content-inner">
+            <div class="phottos">
+              <div class="phottos-item">
+                <a href="#"><img src="img\1474157.jpg" alt=""></a>
+              </div>
+              <div class="tools-group">
+                <ul>
+                  <li><i class="fas fa-eye"></i> <span>10000</span></li>
+                  <li><i class="fas fa-comment"></i> <span>500</span></li>
+                  <li><i class="fas fa-heart"></i> <span>1000</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="photos-author">
+              <a href="#">Canh Phan</a>
+            </div>
+          </li>
+          <li class="content-inner">
+            <div class="phottos">
+              <div class="phottos-item">
+                <a href="#"><img src="img\1474157.jpg" alt=""></a>
+              </div>
+              <div class="tools-group">
+                <ul>
+                  <li><i class="fas fa-eye"></i> <span>10000</span></li>
+                  <li><i class="fas fa-comment"></i> <span>500</span></li>
+                  <li><i class="fas fa-heart"></i> <span>1000</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="photos-author">
+              <a href="#">Canh Phan</a>
+            </div>
+          </li>
+          <li class="content-inner">
+            <div class="phottos">
+              <div class="phottos-item">
+                <a href="#"><img src="img\1474157.jpg" alt=""></a>
+              </div>
+              <div class="tools-group">
+                <ul>
+                  <li><i class="fas fa-eye"></i> <span>10000</span></li>
+                  <li><i class="fas fa-comment"></i> <span>500</span></li>
+                  <li><i class="fas fa-heart"></i> <span>1000</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="photos-author">
+              <a href="#">Canh Phan</a>
+            </div>
+          </li>
+          <li class="content-inner">
+            <div class="phottos">
+              <div class="phottos-item">
+                <a href="#"><img src="img\1474157.jpg" alt=""></a>
+              </div>
+              <div class="tools-group">
+                <ul>
+                  <li><i class="fas fa-eye"></i> <span>10000</span></li>
+                  <li><i class="fas fa-comment"></i> <span>500</span></li>
+                  <li><i class="fas fa-heart"></i> <span>1000</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="photos-author">
+              <a href="#">Canh Phan</a>
+            </div>
+          </li>
+          <li class="content-inner">
+            <div class="phottos">
+              <div class="phottos-item">
+                <a href="#"><img src="img\1474157.jpg" alt=""></a>
+              </div>
+              <div class="tools-group">
+                <ul>
+                  <li><i class="fas fa-eye"></i> <span>10000</span></li>
+                  <li><i class="fas fa-comment"></i> <span>500</span></li>
+                  <li><i class="fas fa-heart"></i> <span>1000</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="photos-author">
+              <a href="#">Canh Phan</a>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+    <!-- LOAD MORE -->
+    <section id="load-more">
+      <div class="open-sign">
+        <a class="more-sign-up" href="#">Sign up to continue</a>
+        <a class="more-sign-in" href="#">or sign in</a>
+      </div>
+    </section>
+  </main>
+  <!-- FOOTER -->
+  <footer>
+    <div class="phottos-description f-inner">
+      <div class="f-brand">
+        <a class="f-head" href="#">phottos</a>
+        <p>Show and tell for designers</p>
+      </div>
+      <div class="f-des">
+        <p>What are you working on? Phottos is a community of photographers sharing screenshots of their work, process, and projects.</p>
+      </div>
+      <div class="f-social">
+        <ul>
+          <li>
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="copyrights">
+        <p>&copy; 2019 Phottos. All rights reserved.</p>
+      </div>
+    </div>
+    <div class="f-inner extra-links">
+      <a class="f-head" href="#">phottos</a>
+      <ul>
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#">Help</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+        <li>
+          <a href="#">Careers</a>
+        </li>
+        <li>
+          <a href="#">Terms</a>
+        </li>
+        <li>
+          <a href="#">Guidelines</a>
+        </li>
+        <li>
+          <a href="#">Privacy</a>
+        </li>
+        <li>
+          <a href="#">Shop</a>
+        </li>
+        <li>
+          <a href="#">Advertise</a>
+        </li>
+      </ul>
+      <p>Made with love from <span class="f-location">HCM, Viet Nam</span></p>
+    </div>
+    <div class="f-inner hiring-links">
+      <a class="f-head" href="#">Hiring at Phottos</a>
+      <ul>
+        <li>
+          <a href="#">Post a job</a>
+        </li>
+        <li>
+          <a href="#">Search photographers</a>
+        </li>
+        <li>
+          <a href="#">Add your team</a>
+        </li>
+      </ul>
+    </div>
+    <div class="f-inner job-links">
+      <a class="f-head" href="#">Jobs for Photographers</a>
+      <ul>
+        <li>
+          <a href="#">photograther</a>
+        </li>
+        <li>
+          <a href="#">photograther</a>
+        </li>
+        <li>
+          <a href="#">photograther</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- Links JS -->
+  <script type="text/javascript" src="js/custom.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+/* SHOWCASE */
+.showcase-wrap {
+  display: grid;
+  grid-template-columns: auto auto;
+  height: 300px;
+}
+
+#magican {
+  background-color: #E9E6DF;
+  height: 400px;
+}
+
+.showcase-content {
+  padding-top: 50px;
+  margin: auto;
+  width: 60%;
+}
+
+#magican h1 {
+  font-size: 3rem;
+  font-weight: 650;
+  color: #d1553b;
+}
+
+.showcase-copy p {
+  font-size: 1.2rem;
+  color: #40514e;
+  margin-top: 20px;
+}
+
+.showcase-p1-wrap {
+  width: 600px;
+}
+
+.showcase-cta {
+  margin-top: 20px;
+}
+
+.showcase-cta a {
+  font-size: 0.8rem;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background: #f857b5;
+  text-decoration: none;
+}
+
+.showcase-cta a:hover {
+  background-color: #e4406f;
+}
+
+#magican img {
+  border-radius: 100%;
+}
+
+#showcase-author {
+  font-size: 0.9rem;
+  color: #40514e;
+}
+
+#showcase-author a {
+  color: #d1553b
+}
+
+.image-image{
+  width: 300px;
+  height: 310px;
+}
+
+/* NAV-BAR */
+#main-nav {
+  background: rgba(255, 255, 255, 0.85);
+}
+
+.full-tabs {
+  display: block;
+  text-align: center;
+}
+
+.full-tabs a {
+  text-decoration: none;
+  color: #33313b;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+#tab-lead {
+  display: inline-block;
+}
+
+.tab-head {
+  display: inline-block;
+  margin: 15px 15px;
+}
+
+.tab-items {
+  display: none;
+  position: absolute;
+  float: left;
+  text-align: left;
+  list-style: none;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 5px;
+  width: 200px;
+  padding: 20px 0px;
+}
+
+.tab-items li {
+  padding: 5px 15px;
+}
+
+.tab-items li:hover {
+  background: #d9d9d9;
+}
+
+.tab-items li a {
+  font-size: 0.8em;
+  color: #5d5d5a;
+}
+
+.screenshot-actions {
+  display: inline-block;
+  float: right;
+  margin: 15px 30px;
+}
+
+#tab-lead span {
+  color: #d2c8c8;
+}
+
+.tab-head:hover .tab-items {
+  display: block;
+}
+
+.actions-menu a {
+  font-size: 1.2rem;
+  color: #d2c8c8;
+  padding-bottom: 64px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.actions-menu a:hover, #action-options {
+  background: #444;
+  display: block;
+}
+
+#action-options {
+  display: none;
+  list-style: none;
+  float: left;
+  background: #444;
+  margin-top: 30px;
+}
+
+#action-options li {
+  display: inline-block;
+  padding: 15px 32px 10px 15px;
+}
+
+#action-options a {
+  padding: 0px;
+}
+
+#view-large i {
+  font-size: 2rem;
+}
+
+/* MAIN-CONTENT */
+#main-content {
+  width: 80%;
+  margin: 30px auto 20px auto;
+}
+
+.contents {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  text-align: center;
+}
+
+.content-inner {
+  margin: 20px 10px;
+}
+
+.phottos {
+  padding: 10px;
+  background: white;
+}
+
+.phottos-item img {
+  width: 250px;
+  height: 250px;
+}
+
+.tools-group ul {
+  list-style: none;
+  text-align: right;
+}
+
+.tools-group ul li {
+  display: inline-block;
+  margin: 0 2px;
+  font-size: 0.8em;
+  color: #bbbbbb;
+}
+
+.tools-group ul li span {
+  font-size: 0.75em;
+}
+
+.photos-author {
+  margin-top: 7px;
+  text-align: left;
+  margin-left: 10px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.photos-author a {
+  text-decoration: none;
+  color: #408ab4;
+}
+
+.photos-author a:hover {
+  color: #07456f;
+}
+
+/* LOAD MORE */
+#load-more {
+  text-align: center;
+}
+
+.open-sign a {
+  text-decoration: none;
+  display: block;
+  color: #408ab4;
+  font-size: 0.9em;
+}
+
+a.more-sign-up {
+  width: 350px;
+  margin: auto;
+  padding: 15px;
+  background: #f857b5;
+  color: white;
+  border-radius: 5px;
+}
+
+a.more-sign-up:hover {
+  background-color: #e4406f;
+}
+
+a.more-sign-in {
+  font-size: 0.95em;
+  width: 200px;
+  margin: 20px auto;
+}
+
+a.more-sign-in:hover {
+  color: #07456f;
+}
+
+/* IDEA: Other */
+.fade{
+  opacity: 0.5;
+}
+
+
+@media screen and (max-width : 820px) {
+  /* SHOWCASE */
+  #magican {
+    z-index: -1;
+  }
+
+  #showcase-author {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    margin-top: 320px;
+  }
+
+  .image-image {
+    order: -1;
+    margin: auto;
+    width: 150px;
+    height: 155px;
+  }
+
+  .showcase-wrap {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    grid-template: none;
+    text-align: center;
+  }
+  .showcase-p1-wrap{
+    margin: 0 auto;
+  }
+
+  .showcase-content{
+    padding-top: 20px;
+  }
+
+  #magican h1{
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  #magican p{
+    font-size: 0.9rem;
+  }
+
+  .showcase-copy{
+    text-align: center;
+  }
+  .content-inner{
+    margin: auto;
+  }
+  /* END MAX-WIDTH 820PX */
+}
